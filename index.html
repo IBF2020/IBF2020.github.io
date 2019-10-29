@@ -26,12 +26,12 @@
 		    var imgUrl = 'https://ibf2020.github.io/images/western.jpeg'; 
 		    var lineLink = 'https://ibf2020.github.io/'; 
 		    var descContent = 'The second International Workshop on Intelligent Bug Fixing (IBF) is the principal venue for works in the area of intelligent bug fixing.';
-		    var shareTitle = 'IBF 2021';
+		    var shareTitle = 'IBF 2020';
 		    var appid = '';
 
 		    $.ajax({
 			type : 'POST',
-			url :  "http://dev.mymax.cn/running/comm/weixin/open/jsSDKConfig", //这个地址并非通用且长期有效，请去微信官方查看文档，并自行配置
+			url :  "http://dev.mymax.cn/running/comm/weixin/open/jsSDKConfig",
 			dataType : "json",
 			data:{url:window.location.href},
 			success : function(response){
